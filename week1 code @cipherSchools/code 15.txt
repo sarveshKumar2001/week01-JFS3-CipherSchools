@@ -1,0 +1,20 @@
+// Sarvesh Kumar 12002369
+//code 15
+//Inheritance in java
+public class Furniture {
+    int width;
+    int height;
+}
+class Chair{
+    int width;
+    int height;
+}
+class Table{
+    int width;
+    int height;
+}
+class Almira{
+    int width;
+    int height;
+}
+--complexity : Memory Occupied = n*8 bytes here n is count of classes.

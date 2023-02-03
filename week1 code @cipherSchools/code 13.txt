@@ -1,0 +1,148 @@
+// Sarvesh Kumar 12002369
+//code 13
+//Abstraction
+
+public class Test1 {
+    interface olaCustomer{
+       void bookcCab();
+       void findRide();
+       void rentCab();
+       void rateDriver();
+       void scheduleCab();
+       void cancelCab();
+       void addMoneytoWallet();
+       void raiseTicket();
+       void signup();
+       void signIn();
+    }
+    interface olaDtiver{
+        void acceptBooking();
+        void getCustomerLocation();
+        void setAvailableStatus();
+        void getMyCommision();
+        void raiseMoneyTransferRequest();
+        void callCustomer();
+        void setUpYourVehicle();
+        void customerFeedback();
+    }
+    interface olaOwner{
+        void getDriverRecords();
+        void getReportByDriverID();
+        void getReportByRegion();
+        void getTotalRevenue();
+        void getCustomerReview();
+        void addDriver();
+        void removeDriver();
+        void changeDriverStatus();
+    }
+public class Test1 implements olaOwner,olaDriver,olaCustomer {
+    public static void main(String[] args) {
+        olaCustomer cust = new Test1();
+        olaDriver manoj = new Test1();
+        manoj.
+        
+    }
+    @override
+    public void bookCab(){
+        
+    }
+    @override
+    public void findRide(){
+        
+    }
+    @override
+    public void rentCab(){
+        
+    }
+    @override
+    public void rateDriver(){
+        
+    }
+    @override
+    public void scheduleCab(){
+        
+    }
+    @override
+    public void cancelCab(){
+        
+    }
+    @override
+    public void addMoneytoWallet(){
+        
+    }
+    @override
+    public void raiseTicket(){
+        
+    }
+    @override
+    public void signup(){
+        
+    }
+    @override
+    public void signIN(){
+        
+    }
+    @override
+    public void acceptBooking(){
+        
+    }
+    @override
+    public void getCustomerLocation(){
+        
+    }
+    @override
+    public void setAvailableStatus(){
+        
+    }
+    @override
+    public void getMyCommision(){
+        
+    }
+    @override
+    public void raiseMoneyTransferReques(){
+        
+    }
+    @override
+    public void callCustomer(){
+        
+    }
+    @override
+    public void setUpYourVehicle(){
+        
+    }
+    @override
+    public void customerFeedback(){
+        
+    }
+    @override
+    public void getDriverRecords(){
+        
+    }
+    @override
+    public void getReportByDriverID(){
+        
+    }
+    @override
+    public void getReportByRegion(){
+        
+    }
+    @override
+    public void getTotalRevenue(){
+        
+    }
+    @override
+    public void getCustomerReview(){
+        
+    }
+    @override
+    public void addDriver(){
+        
+    }
+    @override
+    public void removeDriver(){
+        
+    }
+    @override
+    public void changeDriverStatus()
+    }
+}
